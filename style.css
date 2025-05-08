@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+}
+.heading{
+    margin-left: 37%;
+    margin-top: 1.2%;
+}
+
+.choices{
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#rock:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    
+}
+#paper:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    
+}
+#scissors:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    
+}
+#rock{
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    background-image:url(rock.jpg);
+}
+#paper{
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-image:url(paper.jpg);
+}
+#scissors{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-image:url(scissors.jpg);
+}
+
+.score-board{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.score{
+    font-weight: bold;
+}
+
+ .result-board{
+    margin-top: 15%;
+    margin-left: 42%;
+    /* height: 30px;
+    width: 250px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 10px; */
+} 
+#result{
+    margin-top: 2.5%;
+    font-weight: bold;
+    background-color: #081b31;
+    color: white;
+    font-size: 1rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
